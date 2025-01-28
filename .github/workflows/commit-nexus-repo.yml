@@ -18,7 +18,7 @@ jobs:
         mkdir -p $DESTINATION
     - name: Copy all modified and new CDBs
       run: |
-        FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep ".cdb$" || [[ $? == 1 ]])
+        FILES=$(git diff-tree --no-commit-id --name-only -r HEAD --diff-filter=AM | grep ".cdb$" || [[ $? == 1 ]])
         if [[ "$FILES" ]]; then
           rsync -avR $FILES $HOME/$DESTINATION
         fi
