@@ -6,10 +6,10 @@ These databases are automatically synchronized with servers. Please keep all bug
 
 * For new custom cards:
 	* All new custom cards should be added to `unstable-custom.cdb`. Cards in this file are considered experimental and may still contain errors.
-		* When a card is verified and deemed stable, it can be moved to the appropriate database for custom cards.
+		* When a card is verified and deemed stable, it can be moved to the stable database for custom cards.
 
 * For fixes to existing custom cards:
-	* Changes made to the files in this repository are automatically imported to [the repository the users get updates from](https://github.com/ProjectIgnis/DeltaPuppetOfStrings).
+	* Changes made to the files in this repository are automatically imported to [the repository the users get updates from](https://github.com/YGOProjectUnderground/Nexus).
 
 ### GitHub Actions
 
