@@ -23,5 +23,3 @@ Responsible for pushing database updates to the repository the users get updates
 Custom cards follow a simple passcode format: `2YYYYSSSSS`, where:
 - `YYYY` is the current year.
 - `SSSSS` is a sequential number assigned to the card within that year, starting from `00001`.
-
-Cards with passcodes aliased to another within the same year are treated as alternate artworks.
